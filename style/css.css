@@ -1,492 +1,287 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url(../font/Montserrat-VariableFont_wght.ttf);
+    font-family: 'Comfortaa';
+    src: url(../font/Comfortaa-VariableFont_wght.ttf);
 }
-*{
-    font-family: 'Montserrat'; 
+@font-face {
+    font-family: 'Poppins';
+    src: url(../font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
 }
 body,html{
     margin: 0;
     padding: 0;
-    background-color: #aaaeec;
+    background-color: #05031d;
+    background-image: url(../img/big_bg.png);
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
 }
-.best{
+.top_head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fon.png);
+    background-color: #070427;
+}
+.top{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.best_cont{
-    width: 90%;
+.top_blokc{
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 }
-.best_cont a img{
-    width: 120px;
-    height: fit-content;
+.top_blokc a{
+    width: 8%;
+    height: auto;
 }
-.best_blokc{
+.top_blokc a img{
+    width: 100%;
+    height: auto;
+}
+.top_cont{
     display: flex;
 }
-.best_blokc a{
+.top_cont a{
+    text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #080D6F;
+    color: #ECECEC;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
 }
-.utf{
-     display: block;
-     width: 120px;
-}
-.online{
+.hotels{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+.hotels img{
+    width: 35%;
+    height: fit-content;
+}
+.hotels_cont{
+    width: 50%;
+    height: fit-content;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 100px;
 }
-.online h1{
-    width: 70%;
-    font-size: 60px;
-    font-weight: 700;
-    color: #080D6F;
-    font-style: italic;
-    line-height: 70px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.online span{
+.hotels_cont h1{
+    font-family: 'Comfortaa';
+    color: #00FFC2;
     font-size: 64px;
     font-weight: 700;
-    color: #080D6F;
-    font-style: italic;
-    line-height: 70px;
-    text-align: center;
-}
-.online p{
-    width: 60%;
-    font-size: 24px;
-    font-weight: 400;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 0;
-}
-.new_1{
-    display: flex;
-    width: 100%;
-    justify-content: left;
-}
-.new_2{
-    display: flex;
-    width: 100%;
-    justify-content: right;
-}
-.online h4{
-    width: 720px;
-    height: 80px;
-    background: #CED0FF;
-    border: 3px solid #080D6F;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    font-size: 24px;
-    font-weight: 500;
-    color: #080D6F;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    border-left: none;
-}
-.online h5{
-    width: 720px;
-    height: 80px;
-    background: #CED0FF;
-    border: 3px solid #080D6F;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 24px;
-    font-weight: 500;
-    color: #080D6F;
-    padding-left: 15px;
-    margin-top: 0;
-    border-right: none;
-}
-.get{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.get_blokc{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.get_cont{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.legiano_top{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-image: url(../img/bagraund.png);
-    border-radius: 20px;
-    height: 190px;
-    background-size: cover;
-    border-bottom-right-radius: 0;
-    background-position-y: bottom;
-}
-.legiano{
-    width: 400px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #c1a3be;
-    border: 3px solid #080D6F;
-    border-radius: 20px;
-}
-.legiano_1{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding: 20px;
-    padding-right: 0;
-}
-.legiano_1 img{
-    margin-top: 40px;
-    width: 140px;
-    height: fit-content;
-    margin-left: -188px;
-}
-.legiano .best_img{
-    position: absolute;
-    margin-left: 0;
-    left: -40px;
-    margin-top: 0;
-}
-.legiano_1 .foto{
-    width: 180px;
-    height: fit-content;
-    margin-left: 0;
-}
-.legiano_2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding: 20px;
-    padding-left: 0;
-}
-.legiano_2 h1{
-    font-size: 42px;
-    font-weight: 700;
-    color: #080D6F;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-.legiano_2 h2{
-    font-size: 14px;
-    font-weight: 400;
-    color: #080D6F;
-    margin-top: 0;
-    font-style: italic;
-    margin-bottom: 0;
-}
-.legiano_2 img{
-    width: 140px;
-    height: fit-content;
-    margin-top: 0;
-}
-.get_bonus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.get_bonus h3{
-    font-size: 28px;
-    font-weight: 700;
-    color: #F0EBF1;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-.get_bonus h4{
-    font-size: 22px;
-    font-weight: 500;
-    color: #F0EBF1;
-    font-style: italic;
-    margin-top: 0;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-.get_bonus a{
-    width: 260px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FF9F33;
-    border: 2px solid #080D6F;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #080D6F;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-.malino .get_bonus h3{
-    font-size: 25px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #F0EBF1;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0;
-}
-.malino .get_bonus h4{
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 500;
-    color: #F0EBF1;
-    font-style: italic;
-    margin-top: 0;
-    text-transform: uppercase;
-}
-.malino .get_bonus a{
-    width: 250px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FF9F33;
-    border: 2px solid #080D6F;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #080D6F;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-.get_bonus a:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 50px 0px #FF9F33;
-
-}
-.get_bonus img{
-    width: 260px;
-    height: fit-content;
-    margin-bottom: 40px;
-}
-.legiano:hover{
-    box-shadow: 0px 0px 50px 0px #585858;
-}
-.malino{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.malino_blokc{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.malino_blokc .legiano{
-    width: 350px;
-}
-.malino_blokc .legiano_1 img{
-    height: 75px;
-    width: auto;
-    margin-left: 0;
-    margin-top: 20px;
-}
-.malino_blokc .legiano_top{
-    border-radius: 20px;
-    border-bottom-right-radius: 0;
-    background-position-y: bottom;
-    height: 180px;
-}
-.malino_blokc .get_bonus h3{
-    margin-bottom: 30px;
-}
-.malino_blokc .get_bonus h4{
     margin-bottom: 10px;
 }
-.malino_blokc .get_bonus a{
-    width: 250px;
+.hotels_cont h2{
+    color: #F0F0F0;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 0;
 }
-.online .onl{
-    display: none;
+.hotels_cont a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 270px;
+    height: 50px;
+    border-radius: 30px;
+    background: #00FFC2;
+    font-family: 'Comfortaa';
+    color: #030023;
+    font-size: 20px;
+    font-weight: 700;
 }
-.casinos{
+.top_head .border{
+    width: 70%;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.slovenia{
+    margin-top: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
 }
-.safe h1{
-    width: 1064px;
-    height: 80px;
-    background: #CED0FF;
-    border: 3px solid #080D6F;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+.slovenia h3{
+    font-family: 'Comfortaa';
+    color: #00FFC2;
     font-size: 30px;
-    font-weight: 500;
-    color: #080D6F;
-    font-style: italic;
-    padding-right: 15px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    border-left: none;
-}
-.casinos p{
-    width: 80%;
-    font-size: 24px;
-    font-weight: 400;
-    color: #080D6F;
-    text-align: left;
-    line-height: 30px;
-}
-.safe{
-    width: 100%;
-    display: flex;
-    justify-content: left;
-}
-.players{
-    width: 100%;
-    display: flex;
-    justify-content: right;
-}
-.players h2{
-    width: 1064px;
-    height: 80px;
-    background: #CED0FF;
-    border: 3px solid #080D6F;
-    border-radius: 20px;
-    font-size: 30px;
-    font-weight: 500;
-    color: #080D6F;
-    font-style: italic;
-    padding-left: 15px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border-right: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-.safe h3{
-    width: 1064px;
-    height: 80px;
-    background: #CED0FF;
-    border: 3px solid #080D6F;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    font-size: 30px;
-    font-weight: 500;
-    color: #080D6F;
-    font-style: italic;
-    padding-right: 15px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    border-left: none;
-}
-.casinos .center_p{
+    font-weight: 700;
     text-align: center;
 }
-.casinos .right_p{
-    text-align: right;
+.slovenia p{
+    width: 65%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.slovenia img{
+    width: 70%;
+    height: fit-content;
+    margin-bottom: 80px;
+}
+.grand{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.grand h3{
+    font-family: 'Comfortaa';
+    color: #00FFC2;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.grand p{
+    width: 65%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 0;
+    text-align: center; 
+}
+.grand_blokc{
+    width: 90%;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: contain;
+    justify-content: center;
+    margin-top: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.grand_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 180px;
+    background: #00FFC2;
+    border-radius: 20px;
+    box-shadow: 0px 32px 30px -12px #00000026;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 500px;
+}
+.grand_cont h4{
+    font-family: 'Comfortaa';
+    color: #030023;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.grand_cont p{
+    color: #030023;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-top: 0;
+    line-height: 100%;
+    width: 90%;
+}
+.kartinka{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kartinka img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    height: fit-content;
 }
 footer{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #BCA4BF;
+    background: #00FFC2;
 }
-.gam{
-    width: 80%;
+.contact{
+    width: 90%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-}
-.gam_stop{
-    display: flex;
-    flex-direction: row;
-}
-.gam_stop img{
-    width: fit-content;
-    height: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.end_1{
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     margin-top: 40px;
-}
-.end_1 a{
-    font-size: 14px;
-    font-weight: 400;
-    color: #080D6F;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.end_2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.end_2 h4{
-    font-size: 14px;
-    font-weight: 700;
-    color: #080D6F;
-    margin-right: 20px;
-}
-.end_2 img{
-    width: 10px;
-    height: fit-content;
-}
-.end_2 h5{
-    font-size: 12px;
-    font-weight: 400;
-    color: #0085FF;
-    margin-left: 10px;
-}
-.gam p{
-    font-size: 14px;
-    font-weight: 500;
-    color: #000000;
-    margin-top: 30px;
     margin-bottom: 40px;
 }
+.contact p{
+    width: 55%;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.contact_blokc{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont_1{
+    display: flex;
+    flex-direction: column;
+}
+.cont_1 h1{
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+.cont_1 a{
+    font-family: 'Inter';
+    color: #0000005e;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-
-
-
-
+}
+.cont_2{
+    display: flex;
+    flex-direction: column;
+}
+.cont_2 h3{
+    font-family: 'Inter';
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+}
+.cont_2 h2{
+    font-family: 'Inter';
+    color: #0000005e;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    text-decoration: underline;
+}
 .privacy{
     width: 100%;
     display: flex;
@@ -503,28 +298,26 @@ footer{
     font-size: 18px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
+    font-family: 'Poppins';
+    color: #fff;
 }
 .mini_privacy h1{
-    font-family: 'Montserrat';
-    color: #FFFFFF;
+    font-family: 'Poppins';
+    color: #fff;
 }
 .mini_privacy h2{
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
     font-size: 26px;
-    color: #FFFFFF;
+    color: #fff;
 }
 .mini_privacy h1{
     font-size: 40px;
     margin-bottom: 20px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
 }
 .mini_privacy ul li{
     font-size: 18px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
+    font-family: 'Poppins';
+    color: #fff;
     line-height: 150%;
 }
 
@@ -532,203 +325,107 @@ footer{
 
 
 
-
-.legiano:hover{
-    cursor: pointer;
-
-
-}
-.pop_up{
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 50;
-    background-color: #000000b6;
-    left: 0;
-    top: 0;
-
-}
-.pop_up .legiano{
-    background-color: #c1a3be;
-}
-.pop_up .legiano_top{
-    background-color: #c1a3be;
-    margin-bottom: 25px;
-}
-#link5{
-    position: relative;
-}
-.legiano .close{
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-}
-#link5:hover{
-    cursor: auto;
-}
-
 @media screen and (max-width: 900px){
-  
-    .online h5{
-        width: 90%;
-        font-size: 20px;
-        height: 50px;
-    }
-    .online h4{
-        width: 330px;
-        font-size: 20px;
-        height: 50px;
-    }
-    .best_blokc a{
-        display: none;
-    }
-    .best_cont{
+    .top_blokc{
         flex-direction: column;
-        margin-top: 30px;
-    }
-    body{
-        background-color: #b7bbfe;
-    }
-    .online h1{
-        display: none;
-    }
-    .online .onl{
-        display: block;
-        width: 95%;
-        line-height: 60px;
-        font-size: 42px;
-    }
-    .online .onl span{
-        line-height: 60px;
-        font-size: 50px;
-    }
-   
-    .online span{
-        font-size: 42px;
-        line-height: 50px;
-    }
-    .online p{
+        align-items: center;
         width: 90%;
-        font-size: 20px;
     }
-   
-    .online b{
-        line-height: 40px;
-        font-size: 31px;
-        color: #FF8C0A;
+    .top_blokc a{
+        width: 25%;
+        margin-bottom: 20px;
     }
-    .legiano{
+    .top_blokc a img{
         width: 100%;
+        height: auto;
     }
-    .malino_blokc{
+    .top_cont a{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .hotels{
         flex-direction: column;
         align-items: center;
     }
-    .malino_blokc .legiano{
-        width: 90%;
-        margin-bottom: 20px;
-    }
-    .casinos p{
-        width: 90%;
+    .hotels_cont h1{
         text-align: center;
-        font-size: 20px;
-    }
-    .casinos .right_p{
-        text-align: center;
-    }
-    .safe h1{
-        width: 85%;
-        font-size: 24px;
-        text-align: right;
-        line-height: 40px;
-        font-weight: 700;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-    .players h2{
-        width: 85%;
-        font-size: 24px;
-        text-align: right;
-        line-height: 40px;
-        font-weight: 700;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-left: 0;
-        padding-right: 15px;
-        padding-left: 0;
-        border-right: 3px solid #080D6F;
-    }
-    .players{
-        justify-content: left;
-    }
-    .legiano_1 .foto{
-        width: 130px;
-    }
-    .malino_blokc .legiano_1 img{
-        height: 70px;
-    }
-    .gam_stop{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .gam_stop img{
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    .legiano_1 img{
-        margin-left: -60px;
-    }
-    .gam p{
-        text-align: center;
-        color: #FFFFFF;
-    }
-    .safe h3{
-        width: 85%;
-        font-size: 24px;
-        line-height: 40px;
-        font-weight: 700;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 40px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .malino_blokc .get_bonus h4{
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 430px){
-    .legiano_2 h1{
         font-size: 40px;
     }
-    .legiano_2 h2{
-        font-size: 14px;
+    .hotels_cont h2{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 30px;
     }
-    .legiano_2 img{
-        width: 130px;
-    }
-    .get_bonus h3{
-        font-size: 26px;
-    }
-    .get_bonus h4{
-        font-size: 20px;
-    }
-    .get_bonus a{
-        width: 250px;
-    }
-    .malino_blokc .legiano{
-        margin-top: 20px;
+    .hotels img{
         width: 100%;
+        margin-top: 30px;
+    }
+    .hotels_cont{
+        width: 80%;
+        margin-left: 0;
+        margin-top: 80px;
+        align-items: center;
+    }
+    .slovenia img{
+        width: 100%;
+    }
+    .top_head .border{
+        width: 100%;
+    }
+    .slovenia p{
+        width: 90%;
+    }
+    .grand p{
+        width: 90%;
+    }
+    .grand_cont{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 600px;
+        width: 31%;
+        height: 135px;
+    }
+    .bg1{
+        background-image: url(../img/mob-1.png)!important;
+    }
+    .bg2{
+        background-image: url(../img/mob-2.png)!important;
+    }
+    .bg3{
+        background-image: url(../img/mob-3.png)!important;
+    }
+    .bg4{
+        background-image: url(../img/mob-4.png)!important;
+    }
+    .bg5{
+        background-image: url(../img/mob-5.png)!important;
+    }
+    .kartinka img{
+        width: 90%;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact p{
+        width: 90%;
+        text-align: center;
+    }
+    .contact_blokc{
+        width: 90%;
+        flex-direction: column;
+    }
+    .cont_1{
+        align-items: center;
+    }
+    .cont_2{
+        align-items: center;
+    }
+    .grand_cont h4{
+        font-size: 21px;
+    }
+    .grand_cont p{
+        font-size: 13px;
     }
 }
